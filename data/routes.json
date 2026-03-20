@@ -93,5 +93,60 @@
       "SRI VIJAYAPURAM"
     ],
     "type": "direct"
+  },
+  {
+    "id": 8,
+    "name": "CAR NICOBAR → SRI VIJAYAPURAM via LITTLE ANDAMAN",
+    "stops": [
+      "CAR NICOBAR",
+      "LITTLE ANDAMAN",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "LITTLE ANDAMAN",
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "via"
+  },
+  {
+    "id": 9,
+    "name": "CAR NICOBAR → NANCOWRY via CHOWRA, TERESSA, KATCHAL",
+    "stops": [
+      "CAR NICOBAR",
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY"
+    ],
+    "deboard": "NANCOWRY",
+    "valid": [
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY"
+    ],
+    "type": "via"
+  },
+  {
+    "id": 10,
+    "name": "CAR NICOBAR → CAMPBELL BAY via CHOWRA, TERESSA, KATCHAL, NANCOWRY",
+    "stops": [
+      "CAR NICOBAR",
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY",
+      "CAMPBELL BAY"
+    ],
+    "deboard": "CAMPBELL BAY",
+    "valid": [
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY",
+      "CAMPBELL BAY"
+    ],
+    "type": "via"
   }
 ]
