@@ -1,0 +1,24 @@
+{
+  "interIsland": [
+    "SRI VIJAYAPURAM",
+    "LITTLE ANDAMAN",
+    "CAR NICOBAR",
+    "CHOWRA",
+    "KATCHAL",
+    "NANCOWRY",
+    "TERESSA",
+    "CAMPBELL BAY",
+    "DIGLIPUR",
+    "MAYABUNDER",
+    "RANGAT",
+    "SWARAJ DWEEP (HAVELOCK)",
+    "LONG ISLAND",
+    "SHAHEED DWEEP (NEIL ISLAND)",
+    "STRAIT ISLAND"
+  ],
+  "mainland": [
+    "KOLKATA",
+    "VIZAG",
+    "CHENNAI"
+  ]
+}
