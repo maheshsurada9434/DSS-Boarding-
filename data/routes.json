@@ -80,20 +80,5 @@
       "SHAHEED DWEEP (NEIL ISLAND)"
     ],
     "type": "direct"
-  },
-  {
-    "id": 41,
-    "name": "CAR NICOBAR → CAMPBELL BAY via NANCOWRY",
-    "stops": [
-      "CAR NICOBAR",
-      "NANCOWRY",
-      "CAMPBELL BAY"
-    ],
-    "deboard": "CAMPBELL BAY",
-    "valid": [
-      "NANCOWRY",
-      "CAMPBELL BAY"
-    ],
-    "type": "via"
   }
 ]
