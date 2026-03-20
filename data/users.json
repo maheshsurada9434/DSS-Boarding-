@@ -11,5 +11,13 @@
       "canScan": true,
       "ship": "SENTINEL"
     }
+  },
+  {
+    "uid": "Edith",
+    "name": "Edith",
+    "pwd": "1234",
+    "staffrole": "contract",
+    "active": true,
+    "created": "2026-03-20T12:37:48.808Z"
   }
 ]
