@@ -9,7 +9,7 @@
     "perms": {
       "canBoard": true,
       "canScan": true,
-      "ship": "SENTINEL"
+      "ship": "ALL"
     }
   },
   {
