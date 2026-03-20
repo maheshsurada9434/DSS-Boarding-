@@ -80,5 +80,18 @@
       "SHAHEED DWEEP (NEIL ISLAND)"
     ],
     "type": "direct"
+  },
+  {
+    "id": 7,
+    "name": "CAR NICOBAR → SRI VIJAYAPURAM",
+    "stops": [
+      "CAR NICOBAR",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
   }
 ]
