@@ -1,42 +1,578 @@
 [
-  {"id":1,"name":"Sri Vijayapuram → Car Nicobar (Direct)","stops":["SRI VIJAYAPURAM","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["CAR NICOBAR"]},
-  {"id":2,"name":"Sri Vijayapuram → Little Andaman","stops":["SRI VIJAYAPURAM","LITTLE ANDAMAN"],"deboard":"LITTLE ANDAMAN","valid":["LITTLE ANDAMAN"]},
-  {"id":3,"name":"Sri Vijayapuram → Little Andaman → Car Nicobar","stops":["SRI VIJAYAPURAM","LITTLE ANDAMAN","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["LITTLE ANDAMAN","CAR NICOBAR"]},
-  {"id":4,"name":"Sri Vijayapuram → Swaraj Dweep (Havelock)","stops":["SRI VIJAYAPURAM","SWARAJ DWEEP (HAVELOCK)"],"deboard":"SWARAJ DWEEP (HAVELOCK)","valid":["SWARAJ DWEEP (HAVELOCK)"]},
-  {"id":5,"name":"Sri Vijayapuram → Shaheed Dweep (Neil Island)","stops":["SRI VIJAYAPURAM","SHAHEED DWEEP (NEIL ISLAND)"],"deboard":"SHAHEED DWEEP (NEIL ISLAND)","valid":["SHAHEED DWEEP (NEIL ISLAND)"]},
-  {"id":6,"name":"Sri Vijayapuram → Swaraj Dweep → Shaheed Dweep","stops":["SRI VIJAYAPURAM","SWARAJ DWEEP (HAVELOCK)","SHAHEED DWEEP (NEIL ISLAND)"],"deboard":"SHAHEED DWEEP (NEIL ISLAND)","valid":["SWARAJ DWEEP (HAVELOCK)","SHAHEED DWEEP (NEIL ISLAND)"]},
-  {"id":7,"name":"Sri Vijayapuram → Rangat","stops":["SRI VIJAYAPURAM","RANGAT"],"deboard":"RANGAT","valid":["RANGAT"]},
-  {"id":8,"name":"Sri Vijayapuram → Rangat → Mayabunder → Diglipur","stops":["SRI VIJAYAPURAM","RANGAT","MAYABUNDER","DIGLIPUR"],"deboard":"DIGLIPUR","valid":["RANGAT","MAYABUNDER","DIGLIPUR"]},
-  {"id":9,"name":"Sri Vijayapuram → Long Island","stops":["SRI VIJAYAPURAM","LONG ISLAND"],"deboard":"LONG ISLAND","valid":["LONG ISLAND"]},
-  {"id":10,"name":"Sri Vijayapuram → Strait Island","stops":["SRI VIJAYAPURAM","STRAIT ISLAND"],"deboard":"STRAIT ISLAND","valid":["STRAIT ISLAND"]},
-  {"id":11,"name":"Car Nicobar → Sri Vijayapuram (Direct)","stops":["CAR NICOBAR","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":12,"name":"Car Nicobar → Little Andaman → Sri Vijayapuram","stops":["CAR NICOBAR","LITTLE ANDAMAN","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["LITTLE ANDAMAN","SRI VIJAYAPURAM"]},
-  {"id":13,"name":"Car Nicobar → Chowra → Teressa → Katchal → Nancowry","stops":["CAR NICOBAR","CHOWRA","TERESSA","KATCHAL","NANCOWRY"],"deboard":"NANCOWRY","valid":["CHOWRA","TERESSA","KATCHAL","NANCOWRY"]},
-  {"id":14,"name":"Car Nicobar → Chowra → Teressa → Katchal → Nancowry → Campbell Bay","stops":["CAR NICOBAR","CHOWRA","TERESSA","KATCHAL","NANCOWRY","CAMPBELL BAY"],"deboard":"CAMPBELL BAY","valid":["CHOWRA","TERESSA","KATCHAL","NANCOWRY","CAMPBELL BAY"]},
-  {"id":15,"name":"Car Nicobar → Nancowry (Direct)","stops":["CAR NICOBAR","NANCOWRY"],"deboard":"NANCOWRY","valid":["NANCOWRY"]},
-  {"id":16,"name":"Car Nicobar → Campbell Bay (Direct)","stops":["CAR NICOBAR","CAMPBELL BAY"],"deboard":"CAMPBELL BAY","valid":["CAMPBELL BAY"]},
-  {"id":17,"name":"Little Andaman → Sri Vijayapuram","stops":["LITTLE ANDAMAN","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":18,"name":"Little Andaman → Car Nicobar","stops":["LITTLE ANDAMAN","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["CAR NICOBAR"]},
-  {"id":19,"name":"Nancowry → Car Nicobar","stops":["NANCOWRY","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["CAR NICOBAR"]},
-  {"id":20,"name":"Nancowry → Katchal → Teressa → Chowra → Car Nicobar","stops":["NANCOWRY","KATCHAL","TERESSA","CHOWRA","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["KATCHAL","TERESSA","CHOWRA","CAR NICOBAR"]},
-  {"id":21,"name":"Campbell Bay → Nancowry → Car Nicobar","stops":["CAMPBELL BAY","NANCOWRY","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["NANCOWRY","CAR NICOBAR"]},
-  {"id":22,"name":"Campbell Bay → Nancowry → Katchal → Teressa → Chowra → Car Nicobar","stops":["CAMPBELL BAY","NANCOWRY","KATCHAL","TERESSA","CHOWRA","CAR NICOBAR"],"deboard":"CAR NICOBAR","valid":["NANCOWRY","KATCHAL","TERESSA","CHOWRA","CAR NICOBAR"]},
-  {"id":23,"name":"Diglipur → Mayabunder → Rangat → Sri Vijayapuram","stops":["DIGLIPUR","MAYABUNDER","RANGAT","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["MAYABUNDER","RANGAT","SRI VIJAYAPURAM"]},
-  {"id":24,"name":"Diglipur → Sri Vijayapuram (Direct)","stops":["DIGLIPUR","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":25,"name":"Mayabunder → Rangat → Sri Vijayapuram","stops":["MAYABUNDER","RANGAT","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["RANGAT","SRI VIJAYAPURAM"]},
-  {"id":26,"name":"Rangat → Mayabunder → Diglipur","stops":["RANGAT","MAYABUNDER","DIGLIPUR"],"deboard":"DIGLIPUR","valid":["MAYABUNDER","DIGLIPUR"]},
-  {"id":27,"name":"Rangat → Sri Vijayapuram","stops":["RANGAT","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":28,"name":"Swaraj Dweep → Sri Vijayapuram","stops":["SWARAJ DWEEP (HAVELOCK)","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":29,"name":"Shaheed Dweep → Sri Vijayapuram","stops":["SHAHEED DWEEP (NEIL ISLAND)","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":30,"name":"Shaheed Dweep → Swaraj Dweep → Sri Vijayapuram","stops":["SHAHEED DWEEP (NEIL ISLAND)","SWARAJ DWEEP (HAVELOCK)","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SWARAJ DWEEP (HAVELOCK)","SRI VIJAYAPURAM"]},
-  {"id":31,"name":"Strait Island → Sri Vijayapuram","stops":["STRAIT ISLAND","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":32,"name":"Long Island → Sri Vijayapuram","stops":["LONG ISLAND","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":33,"name":"Chennai → Sri Vijayapuram","stops":["CHENNAI","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":34,"name":"Kolkata → Sri Vijayapuram","stops":["KOLKATA","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":35,"name":"Vizag → Sri Vijayapuram","stops":["VIZAG","SRI VIJAYAPURAM"],"deboard":"SRI VIJAYAPURAM","valid":["SRI VIJAYAPURAM"]},
-  {"id":36,"name":"Sri Vijayapuram → Chennai","stops":["SRI VIJAYAPURAM","CHENNAI"],"deboard":"CHENNAI","valid":["CHENNAI"]},
-  {"id":37,"name":"Sri Vijayapuram → Kolkata","stops":["SRI VIJAYAPURAM","KOLKATA"],"deboard":"KOLKATA","valid":["KOLKATA"]},
-  {"id":38,"name":"Sri Vijayapuram → Vizag","stops":["SRI VIJAYAPURAM","VIZAG"],"deboard":"VIZAG","valid":["VIZAG"]},
-  {"id":39,"name":"Chowra → Teressa → Katchal → Nancowry","stops":["CHOWRA","TERESSA","KATCHAL","NANCOWRY"],"deboard":"NANCOWRY","valid":["TERESSA","KATCHAL","NANCOWRY"]},
-  {"id":40,"name":"Katchal → Nancowry → Campbell Bay","stops":["KATCHAL","NANCOWRY","CAMPBELL BAY"],"deboard":"CAMPBELL BAY","valid":["NANCOWRY","CAMPBELL BAY"]}
+  {
+    "id": 1,
+    "name": "Sri Vijayapuram → Car Nicobar (Direct)",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 2,
+    "name": "Sri Vijayapuram → Little Andaman",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "LITTLE ANDAMAN"
+    ],
+    "deboard": "LITTLE ANDAMAN",
+    "valid": [
+      "LITTLE ANDAMAN"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 3,
+    "name": "Sri Vijayapuram → Little Andaman → Car Nicobar",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "LITTLE ANDAMAN",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "LITTLE ANDAMAN",
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 4,
+    "name": "Sri Vijayapuram → Swaraj Dweep (Havelock)",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "SWARAJ DWEEP (HAVELOCK)"
+    ],
+    "deboard": "SWARAJ DWEEP (HAVELOCK)",
+    "valid": [
+      "SWARAJ DWEEP (HAVELOCK)"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 5,
+    "name": "Sri Vijayapuram → Shaheed Dweep (Neil Island)",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "SHAHEED DWEEP (NEIL ISLAND)"
+    ],
+    "deboard": "SHAHEED DWEEP (NEIL ISLAND)",
+    "valid": [
+      "SHAHEED DWEEP (NEIL ISLAND)"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 6,
+    "name": "Sri Vijayapuram → Swaraj Dweep → Shaheed Dweep",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "SWARAJ DWEEP (HAVELOCK)",
+      "SHAHEED DWEEP (NEIL ISLAND)"
+    ],
+    "deboard": "SHAHEED DWEEP (NEIL ISLAND)",
+    "valid": [
+      "SWARAJ DWEEP (HAVELOCK)",
+      "SHAHEED DWEEP (NEIL ISLAND)"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 7,
+    "name": "Sri Vijayapuram → Rangat",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "RANGAT"
+    ],
+    "deboard": "RANGAT",
+    "valid": [
+      "RANGAT"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 8,
+    "name": "Sri Vijayapuram → Rangat → Mayabunder → Diglipur",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "RANGAT",
+      "MAYABUNDER",
+      "DIGLIPUR"
+    ],
+    "deboard": "DIGLIPUR",
+    "valid": [
+      "RANGAT",
+      "MAYABUNDER",
+      "DIGLIPUR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 9,
+    "name": "Sri Vijayapuram → Long Island",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "LONG ISLAND"
+    ],
+    "deboard": "LONG ISLAND",
+    "valid": [
+      "LONG ISLAND"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 10,
+    "name": "Sri Vijayapuram → Strait Island",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "STRAIT ISLAND"
+    ],
+    "deboard": "STRAIT ISLAND",
+    "valid": [
+      "STRAIT ISLAND"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 11,
+    "name": "Car Nicobar → Sri Vijayapuram (Direct)",
+    "stops": [
+      "CAR NICOBAR",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 12,
+    "name": "Car Nicobar → Little Andaman → Sri Vijayapuram",
+    "stops": [
+      "CAR NICOBAR",
+      "LITTLE ANDAMAN",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "LITTLE ANDAMAN",
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 13,
+    "name": "Car Nicobar → Chowra → Teressa → Katchal → Nancowry",
+    "stops": [
+      "CAR NICOBAR",
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY"
+    ],
+    "deboard": "NANCOWRY",
+    "valid": [
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 14,
+    "name": "Car Nicobar → Chowra → Teressa → Katchal → Nancowry → Campbell Bay",
+    "stops": [
+      "CAR NICOBAR",
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY",
+      "CAMPBELL BAY"
+    ],
+    "deboard": "CAMPBELL BAY",
+    "valid": [
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY",
+      "CAMPBELL BAY"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 15,
+    "name": "Car Nicobar → Nancowry (Direct)",
+    "stops": [
+      "CAR NICOBAR",
+      "NANCOWRY"
+    ],
+    "deboard": "NANCOWRY",
+    "valid": [
+      "NANCOWRY"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 16,
+    "name": "Car Nicobar → Campbell Bay (Direct)",
+    "stops": [
+      "CAR NICOBAR",
+      "CAMPBELL BAY"
+    ],
+    "deboard": "CAMPBELL BAY",
+    "valid": [
+      "CAMPBELL BAY"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 17,
+    "name": "Little Andaman → Sri Vijayapuram",
+    "stops": [
+      "LITTLE ANDAMAN",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 18,
+    "name": "Little Andaman → Car Nicobar",
+    "stops": [
+      "LITTLE ANDAMAN",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 19,
+    "name": "Nancowry → Car Nicobar",
+    "stops": [
+      "NANCOWRY",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 20,
+    "name": "Nancowry → Katchal → Teressa → Chowra → Car Nicobar",
+    "stops": [
+      "NANCOWRY",
+      "KATCHAL",
+      "TERESSA",
+      "CHOWRA",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "KATCHAL",
+      "TERESSA",
+      "CHOWRA",
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 21,
+    "name": "Campbell Bay → Nancowry → Car Nicobar",
+    "stops": [
+      "CAMPBELL BAY",
+      "NANCOWRY",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "NANCOWRY",
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 22,
+    "name": "Campbell Bay → Nancowry → Katchal → Teressa → Chowra → Car Nicobar",
+    "stops": [
+      "CAMPBELL BAY",
+      "NANCOWRY",
+      "KATCHAL",
+      "TERESSA",
+      "CHOWRA",
+      "CAR NICOBAR"
+    ],
+    "deboard": "CAR NICOBAR",
+    "valid": [
+      "NANCOWRY",
+      "KATCHAL",
+      "TERESSA",
+      "CHOWRA",
+      "CAR NICOBAR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 23,
+    "name": "Diglipur → Mayabunder → Rangat → Sri Vijayapuram",
+    "stops": [
+      "DIGLIPUR",
+      "MAYABUNDER",
+      "RANGAT",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "MAYABUNDER",
+      "RANGAT",
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 24,
+    "name": "Diglipur → Sri Vijayapuram (Direct)",
+    "stops": [
+      "DIGLIPUR",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 25,
+    "name": "Mayabunder → Rangat → Sri Vijayapuram",
+    "stops": [
+      "MAYABUNDER",
+      "RANGAT",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "RANGAT",
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 26,
+    "name": "Rangat → Mayabunder → Diglipur",
+    "stops": [
+      "RANGAT",
+      "MAYABUNDER",
+      "DIGLIPUR"
+    ],
+    "deboard": "DIGLIPUR",
+    "valid": [
+      "MAYABUNDER",
+      "DIGLIPUR"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 27,
+    "name": "Rangat → Sri Vijayapuram",
+    "stops": [
+      "RANGAT",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 28,
+    "name": "Swaraj Dweep → Sri Vijayapuram",
+    "stops": [
+      "SWARAJ DWEEP (HAVELOCK)",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 29,
+    "name": "Shaheed Dweep → Sri Vijayapuram",
+    "stops": [
+      "SHAHEED DWEEP (NEIL ISLAND)",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 30,
+    "name": "Shaheed Dweep → Swaraj Dweep → Sri Vijayapuram",
+    "stops": [
+      "SHAHEED DWEEP (NEIL ISLAND)",
+      "SWARAJ DWEEP (HAVELOCK)",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SWARAJ DWEEP (HAVELOCK)",
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 31,
+    "name": "Strait Island → Sri Vijayapuram",
+    "stops": [
+      "STRAIT ISLAND",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 32,
+    "name": "Long Island → Sri Vijayapuram",
+    "stops": [
+      "LONG ISLAND",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 33,
+    "name": "Chennai → Sri Vijayapuram",
+    "stops": [
+      "CHENNAI",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 34,
+    "name": "Kolkata → Sri Vijayapuram",
+    "stops": [
+      "KOLKATA",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 35,
+    "name": "Vizag → Sri Vijayapuram",
+    "stops": [
+      "VIZAG",
+      "SRI VIJAYAPURAM"
+    ],
+    "deboard": "SRI VIJAYAPURAM",
+    "valid": [
+      "SRI VIJAYAPURAM"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 36,
+    "name": "Sri Vijayapuram → Chennai",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "CHENNAI"
+    ],
+    "deboard": "CHENNAI",
+    "valid": [
+      "CHENNAI"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 37,
+    "name": "Sri Vijayapuram → Kolkata",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "KOLKATA"
+    ],
+    "deboard": "KOLKATA",
+    "valid": [
+      "KOLKATA"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 38,
+    "name": "Sri Vijayapuram → Vizag",
+    "stops": [
+      "SRI VIJAYAPURAM",
+      "VIZAG"
+    ],
+    "deboard": "VIZAG",
+    "valid": [
+      "VIZAG"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 39,
+    "name": "Chowra → Teressa → Katchal → Nancowry",
+    "stops": [
+      "CHOWRA",
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY"
+    ],
+    "deboard": "NANCOWRY",
+    "valid": [
+      "TERESSA",
+      "KATCHAL",
+      "NANCOWRY"
+    ],
+    "type": "direct"
+  },
+  {
+    "id": 40,
+    "name": "Katchal → Nancowry → Campbell Bay",
+    "stops": [
+      "KATCHAL",
+      "NANCOWRY",
+      "CAMPBELL BAY"
+    ],
+    "deboard": "CAMPBELL BAY",
+    "valid": [
+      "NANCOWRY",
+      "CAMPBELL BAY"
+    ],
+    "type": "direct"
+  }
 ]
