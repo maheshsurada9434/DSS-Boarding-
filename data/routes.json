@@ -82,36 +82,6 @@
     "type": "direct"
   },
   {
-    "id": 7,
-    "name": "Sri Vijayapuram → Rangat",
-    "stops": [
-      "SRI VIJAYAPURAM",
-      "RANGAT"
-    ],
-    "deboard": "RANGAT",
-    "valid": [
-      "RANGAT"
-    ],
-    "type": "direct"
-  },
-  {
-    "id": 8,
-    "name": "Sri Vijayapuram → Rangat → Mayabunder → Diglipur",
-    "stops": [
-      "SRI VIJAYAPURAM",
-      "RANGAT",
-      "MAYABUNDER",
-      "DIGLIPUR"
-    ],
-    "deboard": "DIGLIPUR",
-    "valid": [
-      "RANGAT",
-      "MAYABUNDER",
-      "DIGLIPUR"
-    ],
-    "type": "direct"
-  },
-  {
     "id": 9,
     "name": "Sri Vijayapuram → Long Island",
     "stops": [
