@@ -9,7 +9,8 @@
     "perms": {
       "canBoard": true,
       "canScan": true,
-      "ship": "ALL"
+      "ship": "SENTINEL",
+      "viewOnly": false
     }
   },
   {
