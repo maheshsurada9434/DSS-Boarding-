@@ -1,19 +1,5 @@
 [
   {
-    "uid": "Mahesh",
-    "name": "S MAHESH",
-    "pwd": "112233",
-    "staffrole": "conductor",
-    "active": true,
-    "created": "2026-03-20T11:46:35.397Z",
-    "perms": {
-      "canBoard": true,
-      "canScan": true,
-      "ship": "SENTINEL",
-      "viewOnly": false
-    }
-  },
-  {
     "uid": "Edith",
     "name": "Edith",
     "pwd": "1234",
