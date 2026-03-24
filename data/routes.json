@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "Sri Vijayapuram → Car Nicobar (Direct)",
+    "name": "SRI VIJAYA PURAM→ CAR NICOBAR (Direct)",
     "stops": [
-      "SRI VIJAYAPURAM",
+      "SRI VIJAYA PURAM",
       "CAR NICOBAR"
     ],
     "deboard": "CAR NICOBAR",
@@ -14,9 +14,9 @@
   },
   {
     "id": 2,
-    "name": "Sri Vijayapuram → Little Andaman",
+    "name": "SRI VIJAYA PURAM→ LITTLE ANDAMAN",
     "stops": [
-      "SRI VIJAYAPURAM",
+      "SRI VIJAYA PURAM",
       "LITTLE ANDAMAN"
     ],
     "deboard": "LITTLE ANDAMAN",
@@ -27,9 +27,9 @@
   },
   {
     "id": 3,
-    "name": "Sri Vijayapuram → Little Andaman → Car Nicobar",
+    "name": "SRI VIJAYA PURAM→ LITTLE ANDAMAN→ CAR NICOBAR",
     "stops": [
-      "SRI VIJAYAPURAM",
+      "SRI VIJAYA PURAM",
       "LITTLE ANDAMAN",
       "CAR NICOBAR"
     ],
@@ -42,9 +42,9 @@
   },
   {
     "id": 4,
-    "name": "Sri Vijayapuram → Swaraj Dweep (Havelock)",
+    "name": "SRI VIJAYA PURAM→ SWARAJ DWEEP (Havelock)",
     "stops": [
-      "SRI VIJAYAPURAM",
+      "SRI VIJAYA PURAM",
       "SWARAJ DWEEP (HAVELOCK)"
     ],
     "deboard": "SWARAJ DWEEP (HAVELOCK)",
@@ -55,9 +55,9 @@
   },
   {
     "id": 5,
-    "name": "Sri Vijayapuram → Shaheed Dweep (Neil Island)",
+    "name": "SRI VIJAYA PURAM→ SHAHEED DWEEP (Neil Island)",
     "stops": [
-      "SRI VIJAYAPURAM",
+      "SRI VIJAYA PURAM",
       "SHAHEED DWEEP (NEIL ISLAND)"
     ],
     "deboard": "SHAHEED DWEEP (NEIL ISLAND)",
@@ -68,9 +68,9 @@
   },
   {
     "id": 6,
-    "name": "Sri Vijayapuram → Swaraj Dweep → Shaheed Dweep",
+    "name": "SRI VIJAYA PURAM→ SWARAJ DWEEP→ SHAHEED DWEEP",
     "stops": [
-      "SRI VIJAYAPURAM",
+      "SRI VIJAYA PURAM",
       "SWARAJ DWEEP (HAVELOCK)",
       "SHAHEED DWEEP (NEIL ISLAND)"
     ],
@@ -83,10 +83,10 @@
   },
   {
     "id": 7,
-    "name": "CAR NICOBAR → SRI VIJAYAPURAM",
+    "name": "CAR NICOBAR → SRI VIJAYA PURAM",
     "stops": [
       "CAR NICOBAR",
-      "SRI VIJAYAPURAM"
+      "SRI VIJAYA PURAM"
     ],
     "deboard": "SRI VIJAYAPURAM",
     "valid": [
@@ -96,16 +96,16 @@
   },
   {
     "id": 8,
-    "name": "CAR NICOBAR → SRI VIJAYAPURAM via LITTLE ANDAMAN",
+    "name": "CAR NICOBAR → SRI VIJAYA PURAM via LITTLE ANDAMAN",
     "stops": [
       "CAR NICOBAR",
       "LITTLE ANDAMAN",
-      "SRI VIJAYAPURAM"
+      "SRI VIJAYA PURAM"
     ],
-    "deboard": "SRI VIJAYAPURAM",
+    "deboard": "SRI VIJAYA PURAM",
     "valid": [
       "LITTLE ANDAMAN",
-      "SRI VIJAYAPURAM"
+      "SRI VIJAYA PURAM"
     ],
     "type": "via"
   },
