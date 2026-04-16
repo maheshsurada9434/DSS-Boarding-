@@ -82,19 +82,6 @@
     "type": "direct"
   },
   {
-    "id": 7,
-    "name": "CAR NICOBAR → SRI VIJAYA PURAM",
-    "stops": [
-      "CAR NICOBAR",
-      "SRI VIJAYA PURAM"
-    ],
-    "deboard": "SRI VIJAYA PURAM",
-    "valid": [
-      "SRI VIJAYA PURAM"
-    ],
-    "type": "direct"
-  },
-  {
     "id": 8,
     "name": "CAR NICOBAR → SRI VIJAYA PURAM via LITTLE ANDAMAN",
     "stops": [
