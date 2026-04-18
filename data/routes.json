@@ -135,5 +135,18 @@
       "CAMPBELL BAY"
     ],
     "type": "via"
+  },
+  {
+    "id": 11,
+    "name": "CAR NICOBAR → SRI VIJAYA PURAM",
+    "stops": [
+      "CAR NICOBAR",
+      "SRI VIJAYA PURAM"
+    ],
+    "deboard": "SRI VIJAYA PURAM",
+    "valid": [
+      "SRI VIJAYA PURAM"
+    ],
+    "type": "direct"
   }
 ]
