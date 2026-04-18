@@ -6,13 +6,5 @@
     "staffrole": "contract",
     "active": true,
     "created": "2026-03-24T14:09:41.370Z"
-  },
-  {
-    "uid": "Mahesh",
-    "name": "S MAHESH",
-    "pwd": "0c8877602cc7266dc7ff7c1afeb8d142ec3b602084c6fb27ce3c987f5aa7c0d8",
-    "staffrole": "conductor",
-    "active": true,
-    "created": "2026-03-24T14:14:32.727Z"
   }
 ]
