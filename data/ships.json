@@ -4,5 +4,11 @@
     "full": "M.V PILOMILLOW",
     "disp": "M.V PILOMILLOW",
     "capacity": 75
+  },
+  {
+    "key": "CAMPBELLBAY",
+    "full": "MV CAMPBELLBAY",
+    "disp": "MV CAMPBELLBAY",
+    "capacity": 500
   }
 ]
